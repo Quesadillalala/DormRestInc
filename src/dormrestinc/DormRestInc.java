@@ -6,6 +6,8 @@
 
 package dormrestinc;
 
+import environment.ApplicationStarter;
+
 /**
  *
  * @author Wyatt
@@ -16,7 +18,14 @@ public class DormRestInc {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        start();
+//        createPeople();
+      
         // TODO code application logic here
     }
     
+    private static void start() {
+        ApplicationStarter.run("Dorm Rest", new DormRestEnvironment());
+    }
+  
 }
