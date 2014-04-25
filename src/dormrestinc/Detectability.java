@@ -10,6 +10,6 @@ package dormrestinc;
  *
  * @author Wyatt
  */
-public class Transmissions {
-    
+public enum Detectability {
+    IMMEDIATE, EARLY, MEDIUM, LATE, NEVER
 }

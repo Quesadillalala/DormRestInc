@@ -10,21 +10,20 @@ package dormrestinc;
  *
  * @author Wyatt
  */
-public class Locations {
-    private Transmissivity transmissivity = Transmissivity.NONE;
-    
+public class Event {
+    private Transmicivity transmicivity = Transmicivity.NONE;   
 
     /**
-     * @return the transmissivity
+     * @return the transmicivity
      */
-    public Transmissivity getTransmissivity() {
-        return transmissivity;
+    public Transmicivity getTransmicivity() {
+        return transmicivity;
     }
 
     /**
      * @param transmicivity the transmicivity to set
      */
-    public void setTransmissivity(Transmissivity transmissivity) {
-        this.transmissivity = transmissivity;
+    public void setTransmicivity(Transmicivity transmicivity) {
+        this.transmicivity = transmicivity;
     }
 }

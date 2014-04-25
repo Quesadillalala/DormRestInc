@@ -10,6 +10,6 @@ package dormrestinc;
  *
  * @author Wyatt
  */
-public class Symptoms {
-    
+public enum Building_Type {
+    HOUSE, CLASSES, SCHOOLWIDE
 }
