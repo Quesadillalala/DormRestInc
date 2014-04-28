@@ -7,6 +7,7 @@
 package dormrestinc;
 
 import environment.Environment;
+import image.ResourceTools;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
@@ -24,6 +25,7 @@ public class DormRestEnvironment extends Environment {
     @Override
     public void initializeEnvironment() {
         this.setBackground(Color.BLUE);
+        this.setBackground(ResourceTools.loadImageFromResource("resources/brentwood map.png"));
     }
 
     @Override
