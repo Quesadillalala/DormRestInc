@@ -11,7 +11,7 @@ package dormrestinc;
  * @author Wyatt
  */
 public enum Population {
-    NONE (0), VERY_LOW(25), LOW(50), MEDIUM(75), HIGH(25), VERY_HIGH(35);
+    NONE (0), VERY_LOW(25), LOW(50), MEDIUM(75), HIGH(125), VERY_HIGH(250), WHOLE_SCHOOL(450);
     
     Population (int value) {
         this.value = value;
