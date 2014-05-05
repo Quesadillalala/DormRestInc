@@ -22,7 +22,7 @@ public class Locations {
     }
 
     /**
-     * @param transmicivity the transmicivity to set
+     * @param transmicivity the transmissivity to set
      */
     public void setTransmissivity(Transmissivity transmissivity) {
         this.transmissivity = transmissivity;

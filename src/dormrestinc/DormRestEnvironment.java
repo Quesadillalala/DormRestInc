@@ -10,8 +10,10 @@ import environment.Environment;
 import image.ResourceTools;
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
+import javax.media.j3d.Background;
 
 
         
@@ -24,9 +26,16 @@ public class DormRestEnvironment extends Environment {
 
     @Override
     public void initializeEnvironment() {
-        this.setBackground(Color.BLUE);
+        //this.setBackground(Color.BLUE);
+        
+        
+//        Image background = ResourceTools.loadImageFromResource("resources/brentwood map.png");
+//        System.out.println("size = " + background.getWidth(this));
+//        this.getParent().setSize(200, 300);
+//        this.setBackground(background);
         this.setBackground(ResourceTools.loadImageFromResource("resources/brentwood map.png"));
     }
+    
 
     @Override
     public void timerTaskHandler() {
@@ -46,6 +55,7 @@ public class DormRestEnvironment extends Environment {
 
     @Override
     public void paintEnvironment(Graphics graphics) {
+        
     }
     
 } 

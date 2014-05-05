@@ -7,6 +7,9 @@
 package dormrestinc;
 
 import environment.ApplicationStarter;
+import image.ResourceTools;
+import java.awt.Dimension;
+import java.awt.Image;
 
 /**
  *
@@ -25,7 +28,8 @@ public class DormRestInc {
     }
     
     private static void start() {
-        ApplicationStarter.run("Dorm Rest", new DormRestEnvironment());
+        Image background = ResourceTools.loadImageFromResource("resources/brentwood map.png");
+        ApplicationStarter.run(new String[0], "Dorm Rest", new Dimension(1100, background.getHeight(null)), new DormRestEnvironment());
     }
   
 }
