@@ -7,9 +7,13 @@
 package dormrestinc;
 
 import environment.ApplicationStarter;
+<<<<<<< HEAD
 import image.ResourceTools;
 import java.awt.Dimension;
 import java.awt.Image;
+=======
+import static java.awt.SystemColor.window;
+>>>>>>> FETCH_HEAD
 
 /**
  *
